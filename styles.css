@@ -70,11 +70,11 @@ a {
     font-weight: light;
 }
 
-.info-image {
-    border-radius: 30px;
-    border: 2px solid #3882F6;
-    width: 36px;
-    height: 36px;
+.info-img {
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+    width: 120px;
+    height: 120px;
 }
 
 .quote {
