@@ -14,6 +14,11 @@ a {
     color: #E5E7EB;
 }
 
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
 .body {
 
 }
@@ -22,22 +27,60 @@ a {
 
 }
 
-.hero {
-
+.footer {
+    color: #ffffff;
 }
 
-.main {
-
+.hero .main {
+    font-weight: 800; /* extra-bold */
+    font-size: 48px;
+    color: #F9FAf8;
 }
 
-.secondary {
-
-}
-
-.button {
-
+.hero .secondary {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .image {
+    background-color: #6D747D;
+    color: white;
+}
 
+.button {
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta .button {
+    border: 2px solid white;
+}
+
+.button,
+.cta {
+    background-color: #3882F6;
+    color: white;
+}
+
+.cta-title {
+    font-weight: bold;
+}
+
+.cta-text {
+    font-weight: light;
+}
+
+.info-image {
+    border-radius: 30px;
+    border: 2px solid #3882F6;
+    width: 36px;
+    height: 36px;
+}
+
+.quote {
+    background-color: #E5E7Eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
 }
