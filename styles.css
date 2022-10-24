@@ -17,25 +17,13 @@ a {
     color: #E5E7EB;
 }
 
-/* debug */
-* {
-    border: 1px solid red;
-}
-
 .header,
 .hero,
 .footer {
     background-color: #1F2937;
-
 }
 
-.footer {
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+/* header section styles */
 .header {
     display: flex;
     justify-content: space-between;
@@ -53,7 +41,9 @@ a {
     display: flex;
     gap: 32px;
 }
+/* end header section styles */
 
+/* hero section styles */
 .hero {
     padding: 150px 150px;
     display: flex;
@@ -95,8 +85,9 @@ a {
 .hero-left .button {
     margin-top: 8px;
 }
+/* end hero section styles */
 
-
+/* info section styles */
 .info-title {
     font-size: 36px;
     font-weight: 800; /* extra bold */
@@ -128,7 +119,9 @@ a {
     width: 160px;
     height: 160px;
 }
+/* end info section styles */
 
+/* quote section styles */
 .quote {
     background-color: #E5E7Eb;
     color: #1F2937;
@@ -150,21 +143,44 @@ a {
     font-size: 24px;
     align-self: flex-end;
 }
+/* end quote section styles */
 
-.cta .button {
-    border: 2px solid white;
-}
-
+/* call to action section styles */
 .button,
 .cta {
     background-color: #3882F6;
     color: white;
 }
 
+.cta {
+    margin: 150px 75px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta .button {
+    border: 2px solid white;
+    align-self: center;
+}
+
 .cta-title {
     font-weight: bold;
+    font-size: 20px;
 }
 
 .cta-text {
-    font-weight: light;
+    font-weight: 100;
 }
+/* end call to action section styles */
+
+/* footer section */
+.footer {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+/* end footer section */
