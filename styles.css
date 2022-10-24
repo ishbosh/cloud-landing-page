@@ -111,6 +111,7 @@ a {
     align-items: center;
     text-align: center;
     flex: 0 0 160px;
+    gap: 8px;
 }
 
 .info-img {
