@@ -1,4 +1,4 @@
-# odin-landing-page
+# cloud-landing-page
 
 VERSION 2: Cloud Landing Page
 
