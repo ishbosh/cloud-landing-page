@@ -1,4 +1,13 @@
 # odin-landing-page
+
+VERSION 2: Cloud Landing Page
+
+This project accomplishes the secondary objective from the original
+Odin Landing Page project. The assets are from Cloud Crafting and
+belong to Emma Cloud. Webpage was built by Trevor Stonerock starting 
+with the original design provided by Odin Project.
+
+---------------------------------
 Odin - Project 01: Landing Page
 
 See design directory for basis of webpage design provided for project.
