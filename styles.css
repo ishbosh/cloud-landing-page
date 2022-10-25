@@ -119,7 +119,7 @@ a {
 
 .button:active {
     background-color: #4ebdf8;
-    transform: translateY(1px) translateX(1px);
+    transform: translateY(1px);
 }
 
 .hero-left .button {
